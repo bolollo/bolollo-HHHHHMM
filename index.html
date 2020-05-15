@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HHHHHMM</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fomantic-ui@2.8.4/dist/semantic.min.js"></script>
+    <script type="text/javascript" src="./js/hhhhhmm.js"></script>
+    
+</head>
+<body>
+    <div class="ui main text container">
+        <h1 class="ui header">Quality of Life Scale (HHHHHMM Scale)</h1>
+        <p>Para cada categoría, tenemos que usar una escala del 0 al 10 donde el 10 es la máxima puntuación y el 0 es la menor. Se sugiere que completemos esa escala 3 días consecutivos para dar una lectura más aproximada.</p>
+        <p>Usando una escala de 0 a 10 (0 = Inaceptable, 10 = Excelente), los pacientes pueden ser evaluados por su calidad de vida.</p>
+        <h2>Total: <small class="total">0</small></h2>
+        <div class="ui positive hidden message totalok">
+            Total es mayor a 35, la calidad de vida de nuestra mascota es aceptable
+        </div>
+        <div class="ui warning hidden message totalko">
+            Total es menor a 35, la calidad de vida de nuestra mascota no es aceptable. Deberíamos considerar la eutanasia
+        </div>
+        <div class="ui segment">
+            <h3>DUELE</h3>
+            <h4>¿Nuestra mascota tiene problemas respiratorios? ¿Tiene dolor? ¿Puede ser controlado ese dolor?¿Necesita oxígeno? Apréndete las señales que nos indican que nuestra mascota tiene dolor.</h4>
+            <div class="ui labeled slider hurt"></div>
+        </div>
+        <div class="ui segment">
+            <h3>HAMBRE</h3>
+            <h4>¿Nuestra mascota come lo suficiente? ¿Necesita ayuda para comer? ¿Es alimentado a través de un tubo?</h4>
+            <div class="ui labeled slider hunger"></div>
+        </div>
+        <div class="ui segment">
+            <h3>HIDRATACION</h3>
+            <h4>¿Nuestra mascota está deshidratada? ¿Necesita suplementos de fluidos a través de vía subcutánea? ¿Cómo responde nuestra mascota a esos fluidos?</h4>
+            <div class="ui labeled slider hydration"></div>
+        </div>
+        <div class="ui segment">
+            <h3>HIGIENE</h3>
+            <h4>¿Nuestra mascota necesita ser cepillada y/o limpiada regularmente, especialmente después de ir a cagar? ¿Tiene problemas de incontinencia? ¿Tiene llagas de presión? ¿Mantienes las heridas limpias y le proporcionas una cama cómoda?</h4>
+            <div class="ui labeled slider hygiene"></div>
+        </div>
+        <div class="ui segment">
+            <h3>FELICIDAD</h3>
+            <h4>¿Nuestra mascota disfruta y demuestra interés? ¿Responde a su entorno (familia, juguetes, etc.)? ¿La mascota parece deprimida, ansiosa, aburrida, solitaria o asustada? ¿Reduce sus niveles si esta cerca la familia?</h4>
+            <div class="ui labeled slider happiness"></div>
+        </div>
+        <div class="ui segment">
+            <h3>MOBILIDAD</h3>
+            <h4> ¿Nuestra mascota necesita ayuda para levantarse? ¿Quiere ir de paseo? ¿Tropieza o tiene convulsiones?</h4>
+            <div class="ui info message">
+                <i class="icon info"></i>
+                Algunos cuidadores sienten que la eutanasia es preferible a la amputación, sin embargo, un animal con movilidad limitada aún puede estar alerta y receptivo y puede tener una buena calidad de vida siempre y cuando la familia esté comprometida con una atención de calidad
+            </div>
+            <div class="ui labeled slider mobility"></div>
+        </div>
+        <div class="ui segment">
+            <h3>DIAS DE MÁS COSAS BUENAS QUE MALAS</h3>
+            <h4>Si el número de días malos sobrepasa el número de días buenos, es indicativo que la calidad de vida de nuestra mascota está comprometida.</h4>
+            <div class="ui info message">
+                <i class="icon info"></i>
+                Cuando un el vínculo humano-animal sano ya no es posible, el cuidador debe ser consciente de que el final está cerca
+            </div>
+            <div class="ui labeled slider moreGoodDays"></div>
+        </div>
+        <h2>Total: <small class="total">0</small></h2>
+        <div class="ui positive hidden message totalok">
+            Total es mayor a 35, la calidad de vida de nuestra mascota es aceptable
+        </div>
+        <div class="ui warning hidden message totalko">
+            Total es menor a 35, la calidad de vida de nuestra mascota no es aceptable. Deberíamos considerar la eutanasia
+        </div>
+    </div>
+</body>
+</html>
