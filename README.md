@@ -7,5 +7,5 @@ Total: A total of > 35 points is acceptable quality of life for pets.
 
 ## Demo
 
-https://bolollo.github.io/bolollo-HHHHHMM/index.html
+https://bolollo.github.io/bolollo-HHHHHMM/
 
